@@ -1,3 +1,92 @@
+/* Base styles (extra small devices - mobile) */
+/* CSS rules */
+html{
+    font-size:14px;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+    font-size:1rem;
+    color:#444444;
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    color:#222222;
+}
+h1{font-size: 2.5rem;}
+h2{font-size: 2rem;}
+h3{font-size: 1.75rem;}
+h4{font-size: 1.5rem;}
+h5{font-size: 1.25rem;}
+h6{font-size: 1rem;}
+
+#description li{
+    color:#3B82F6;
+
+    
+}
+#description li{
+    color:#3B82F6;
+
+    
+}
+#description li:hover{
+    color:#1D4ED8;
+    cursor:pointer;
+}
+#navbar{
+    padding:8px;
+    margin:0;
+
+}
+#logo{
+    display:block;
+}
+#logo-with-text{
+    display:none;
+}
+
+
+/* Small devices (tablets) */
+@media screen and (min-width: 576px) {
+    html{
+        font-size:16px;
+    }
+    #logo{
+        display:none;
+    }
+    #logo-with-text{
+        display:block;
+    }
+  }
+
+  
+/* Medium devices (laptops) */
+@media screen and (min-width: 768px) {
+    /* CSS rules */
+  }
+  
+/* Large devices (desktops) */
+  @media screen and (min-width: 992px) {
+  
+  }
+  
+/* Extra large devices (large desktops) */
+  @media screen and (min-width: 1200px) {
+    /* CSS rules */
+  }
+
+
+
+
+
+
+
+
+/*
 body{
     margin:0;
     padding:0;
@@ -172,3 +261,4 @@ h3{
 .jobrole{
     color:brown;
 }
+*/
